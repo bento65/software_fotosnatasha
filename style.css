@@ -1,0 +1,106 @@
+body {
+
+    background-image: url(./18.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    font-family: monospace;
+    color: rgb(247, 15, 169);
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline ;
+    text-decoration-color: rgb(233, 10, 10);
+}
+
+button {
+    color: rgb(248, 248, 248);
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: rgb(253, 5, 88);
+    background-color: rgb(204, 126, 162);
+
+}
+
+#slideshow-container {
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    margin: 5px;
+
+
+}
+
+img {
+    border-radius: 100%;
+}
+
+#playPauseBtn {
+    margin: 5px;
+
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 30px;
+    color: rgb(238, 214, 3);
+    border-color: rgb(253, 5, 5);
+
+
+}
+
+audio {
+    width: 50%;
+
+}
+
+.caixa2 {
+    color: rgb(24, 23, 23);
+    background-color: rgba(222, 223, 217, 0.459);
+    display: inline-block;
+    border-radius: 13px;
+    font-size: 22px;
+    max-width: 800px;
+    margin: 5px;
+    padding: 30px;
+    cursor: pointer;
+
+}
+
+h3 {
+    color: rgb(26, 25, 25);
+    background-color: rgb(228, 162, 211);
+    border-radius: 13px;
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+    height: 35px;
+}
+
+h2 {
+    font-size: 22px;
+    color: rgb(26, 25, 25);
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(228, 162, 211);
+    border-radius: 13px;
+    height: 35px;
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    /* Estilos específicos para telas menores que 600px */
+    .caixa1,
+    .caixa2 {
+        padding: 10px;
+    }
+}
